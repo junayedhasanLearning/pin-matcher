@@ -50,5 +50,7 @@ document.querySelector('.submit-btn').addEventListener('click', () => {
         matchPin();
         output = "";
         pinInput.value = output;
+        randomNumber = "";
+        pinOutput.value = randomNumber;
     }
 });
