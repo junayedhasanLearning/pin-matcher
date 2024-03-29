@@ -25,6 +25,8 @@ function matchPin() {
 document.getElementById('generateBtn').addEventListener('click', () => {
     randomNumber = generateRandomNumber();
     pinOutput.value = randomNumber;
+    matched.style.display = "none";
+    notMatched.style.display = "none";
 });
 // pin matcher key functionality
 for (let i = 0; i < inputBtn.length; i++) {
