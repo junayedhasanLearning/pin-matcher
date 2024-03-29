@@ -48,5 +48,7 @@ for (let i = 0; i < inputBtn.length; i++) {
 document.querySelector('.submit-btn').addEventListener('click', () => {
     if (output.length === 4) {
         matchPin();
+        output = "";
+        pinInput.value = output;
     }
 });
